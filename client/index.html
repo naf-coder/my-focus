@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
+    <link rel="stylesheet" href="./src/test.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="/src/script.js"></script>
+    <title>mozilor</title>
+    <style></style>
+  </head>
+
+  <body class="min-h-screen">
+    <header class="fixedmin-w-screen flex items-center justify-center bg-white">
+      <nav class="flex w-full md:w-[86%] items-center justify-between bg-white">
+        <div class="bg-white">
+          <a href="./index.html">
+            <img
+              src="assets/mozilor-logo-header.svg "
+              class="h-24 w-48 ml-4"
+              id="image"
+          /></a>
+        </div>
+        <div id="dropdown-menu" class="hidden">
+          <div
+            class="bg-white py-2 absolute right-0 top-20 flex flex-col items-center lg:flex-row"
+          >
+            <ul class="flex flex-col items-start text-1xl text-blue-900 gap-6">
+              <li>
+                <a href="#" class="">Products</a>
+              </li>
+              <li>
+                <a href="./about.html" class="">About Us</a>
+              </li>
+              <li>
+                <a href="./contact.html" class="">Contact</a>
+              </li>
+            </ul>
+            <div>
+              <button
+                class="bg-sky-300 hover:bg-blue-900 text-white font-bold py-2.5 px-6 rounded"
+              >
+                We're Hiring
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="md:hidden toggle-button">
+          <i id="menu" class="fa-solid fa-bars fa-xl mr-4"></i>
+        </div>
+
+        <section class="hidden md:flex">
+          <div class="flex text-lg items-center text-blue-900">
+            <span><a href="#" class="m-7">Products</a></span>
+            <span><a href="/about.html" class="m-7">About Us</a></span>
+            <span><a href="./contact.html" class="m-7">Contact</a> </span>
+            <div class="hidden md:flex">
+              <button
+                class="bg-sky-300 hover:bg-blue-900 text-white font-bold py-2.5 px-6 rounded"
+              >
+                We're Hiring
+              </button>
+            </div>
+          </div>
+        </section>
+      </nav>
+    </header>
+
+    <section class="min-w-screen flex items-center justify-center bg-white">
+      <div class="bg-white w-[85%] h-auto md:flex justify-between">
+        <section>
+          <div
+            class="md:flex flex-col mt-10 md:mt-20 md:text-start text-center"
+          >
+            <h1 class="text-2xl md:text-5xl font-bold text-blue-900">
+              We build products to
+            </h1>
+            <h1 class="text-2xl md:text-5xl font-bold text-blue-900 md:mt-3">
+              simplify work for
+            </h1>
+            <h1 class="text-2xl md:text-5xl font-bold text-blue-900 md:mt-3">
+              businesses
+            </h1>
+          </div>
+          <div class="md:flex flex-col md:text-start text-center mt-10">
+            <h3 class="text-lg md:text-2xl">
+              Our next-gen products empower businesses to
+            </h3>
+            <h3 class="text-lg md:text-2xl">
+              implement agility and accelerate growth.
+            </h3>
+          </div>
+          <div class="mt-8 md:flex">
+            <button
+              class="bg-blue-900 text-white font-bold py-3.5 px-7 rounded-lg"
+            >
+              Learn more
+            </button>
+            <button
+              class="bg-sky-300 hover:bg-blue-900 text-white font-bold py-3.5 px-7 rounded-lg ml-5"
+            >
+              Work with us
+            </button>
+          </div>
+        </section>
+
+        <section>
+          <img src="./assets/Banner.png " />
+        </section>
+      </div>
+    </section>
+
+    <section
+      class="md:min-w-screen flex items-center justify-center bg-white mt-20"
+    >
+      <p
+        class="bg-white text-center font-bold text-blue-900 text-3xl md:text-4xl"
+      >
+        Over <span class="text-sky-400"> 1.5 million</span> users and global
+        brands trust us
+      </p>
+    </section>
+
+    <section
+      class="min-w-screen flex items-center justify-center bg-white mt-5"
+    >
+      <div class="bg-white flex w-[85%] justify-center mt-10 flex-wrap">
+        <img src="./assets/dekoria.svg" class="m-7" />
+        <img src="./assets/decathlon.svg " class="m-7" />
+        <img src="./assets/dominos.svg" class="m-7" />
+        <img src="./assets/heineken.svg" class="m-7" />
+        <img src="./assets/toyota.svg" class="m-7" />
+        <img src="./assets/renault.svg" class="m-7" />
+        <img src="./assets/kfc.svg" class="m-7" />
+      </div>
+    </section>
+
+    <section
+      class="min-w-screen flex items-center justify-center bg-white mt-5"
+    >
+      <div
+        class="flex flex-col items-center justify-center bg-white mt-10 w-[86%]"
+      >
+        <p class="md:text-5xl font-bold text-blue-900">Our line of products</p>
+        <p class="md:text-lg mt-5">
+          Here's what we're building to help businesses deliver amazing customer
+          experiences.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="min-w-screen flex items-center justify-center bg-white mt-5"
+    >
+      <div class="md:flex mt-5 items-center justify-center w-[86%]">
+        <div
+          class="bg-gradient-to-br from-sky-100 to-white rounded-xl md:w-[50%] m-3 shadow-lg"
+        >
+          <img src="./assets/cookieyes-logo.svg" class="mt-16 ml-14" />
+          <p class="mt-10 text-2xl ml-14">
+            Cookie consent solution for <br />
+            privacy compliance.
+          </p>
+          <button
+            class="hover:bg-blue-900 border border-blue-900 mt-6 ml-14 px-8 py-3 rounded"
+          >
+            Learn more
+          </button>
+          <img src="./assets/home-product-cy.svg" class="mt-2 ml-5" />
+        </div>
+        <div
+          class="bg-gradient-to-br from-sky-100 to-white rounded-xl md:w-[50%] m-3 shadow-lg"
+        >
+          <img src="./assets/webtoffee-logo.svg" class="mt-16 ml-14" />
+          <p class="mt-10 ml-14 text-2xl">
+            Plugins and extensions for <br />
+            eCommerce needs.
+          </p>
+          <button
+            class="hover:bg-blue-900 border border-blue-900 mt-6 ml-14 px-8 py-3 rounded"
+          >
+            Learn more
+          </button>
+          <img src="./assets/home-product-wt.svg" class="mt-4 ml-5" />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="min-w-screen flex items-center justify-center bg-white mt-36"
+    >
+      <div class="w-[86%] md:flex items-center justify-between bg-white">
+        <section class="items-center justify-center">
+          <h1 class="text-3xl md:text-5xl text-blue-900 font-bold">
+            Creators of award-
+          </h1>
+          <h1 class="text-3xl md:text-5xl text-blue-900 font-bold text-start">
+            winning products
+          </h1>
+          <p class="mt-5 text-lg">
+            Our products are loved by customers and <br />recommended by leading
+            industry experts.
+          </p>
+        </section>
+        <section class="mr-10">
+          <img src="./assets/g2-badges.svg" />
+        </section>
+      </div>
+    </section>
+
+    <section
+      class="min-w-screen bg-white mt-20 flex justify-center items-center"
+    >
+      <div class="w-[86%]">
+        <h1 class="text-center text-3xl md:text-5xl font-bold text-blue-900">
+          Making waves with innovation
+        </h1>
+        <p class="text-center text-xl md:text-lg mt-5">
+          We are in the news for being market leaders who deliver exceptional
+          products.
+        </p>
+      </div>
+    </section>
+
+    <section class="flex justify-center items-center mt-16">
+      <div class="w-[86%] flex">
+        <div class="m-3 p-3 bg-white shadow-xl rounded-lg">
+          <img src="./assets/mathrubhumi-logo.png" />
+        </div>
+        <div class="m-3 p-3 bg-white shadow-xl rounded-lg">
+          <img src="./assets/deepika-logo.png" />
+        </div>
+        <div class="m-3 p-3 bg-white shadow-xl rounded-lg">
+          <img src="./assets/css-logo.png" />
+        </div>
+        <div class="m-3 p-3 bg-white shadow-xl rounded-lg">
+          <img src="./assets/10000startup-logo.png" />
+        </div>
+        <div class="m-3 p-3 bg-white shadow-xl rounded-lg">
+          <img src="./assets/wikpedia-logo.png" />
+        </div>
+        <div class="m-3 p-3 bg-white shadow-xl rounded-lg">
+          <img src="./assets/smashingmagazine-logo.png" />
+        </div>
+        <div class="m-3 p-3 bg-white shadow-xl rounded-lg">
+          <img src="./assets/manorama-logo.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="flex items-center justify-center mt-10">
+      <div class="w-[86%] md:flex items-center justify-between">
+        <section>
+          <h2 class="text-3xl md:text-5xl font-bold text-blue-900">
+            Let's build the
+          </h2>
+          <h2 class="text-3xl md:text-5xl font-bold text-blue-900">
+            next big thing!
+          </h2>
+
+          <p class="text-lg mt-5">
+            Looking to achieve great things? You've come to <br />the right
+            place.
+          </p>
+          <button
+            class="text-lg border border-sky-500 hover:bg-blue-900 text-sky-300 px-6 py-3 rounded-md mt-5"
+          >
+            Join the team
+          </button>
+        </section>
+        <section>
+          <img src="./assets/home-ideas.png" class="t" />
+        </section>
+      </div>
+    </section>
+
+    <hr class="min-w-screen" />
+
+    <footer class="min-w-screen flex items-center justify-center my-16">
+      <div class="md:flex justify-between w-[86%]">
+        <div>
+          <img src="./assets/mozilor-logo-header.svg" class="w-48" />
+          <p class="mt-5 text-lg">
+            Mozilor builds extensions, plugins and<br />
+            apps to simplify work for businesses.
+          </p>
+        </div>
+        <section class="md:flex">
+          <div>
+            <ul class="my-5">
+              <li class="font-semibold text-xl mb-5 mr-28">Products</li>
+              <li><a href="https://www.cookieyes.com/">CookieYes</a></li>
+              <li><a href="https://www.webtoffee.com/">WebToffee</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="my-5">
+              <li class="font-semibold text-xl mb-5 mr-28">Quick links</li>
+              <li><a href="./about.html">About us</a></li>
+              <li>Careers</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="my-5">
+            <h3 class="font-semibold text-xl mb-5 ml-2">Follow us</h3>
+            <ul class="flex">
+              <li><i class="fa-brands fa-square-facebook m-2"></i></li>
+              <li><i class="fa-brands fa-instagram m-2"></i></li>
+              <li><i class="fa-brands fa-x-twitter m-2"></i></li>
+              <li><i class="fa-brands fa-linkedin m-2"></i></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <hr />
+    <nav class="min-w-screen flex items-center justify-center">
+      <hr />
+      <section class="md:flex items-center justify-between mt-10 mb-10 w-[86%]">
+        <h6 class="">© 2024 Mozilor - All right reserved.</h6>
+        <h5>
+          <a href="https://www.mozilor.com/terms" class="underline"
+            >Terms & Conditions</a
+          >
+        </h5>
+      </section>
+    </nav>
+  </body>
+</html>

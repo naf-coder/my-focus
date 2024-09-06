@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="/src/script.js"></script>
+    <title>mozilor</title>
+  </head>
+
+  <body class="min-h-screen">
+    <header class="min-w-screen flex items-center justify-center bg-white">
+      <nav class="flex w-full md:w-[86%] items-center justify-between bg-white">
+        <div class="bg-white">
+          <a href="./index.html">
+            <img src="assets/mozilor-logo-header.svg " class="h-24 w-48 ml-4"
+          /></a>
+        </div>
+        <div id="dropdown-menu" class="hidden">
+          <div
+            class="bg-white py-2 absolute right-0 top-20 flex flex-col items-center lg:flex-row"
+          >
+            <ul class="flex flex-col items-start text-xl text-blue-900 gap-6">
+              <li>
+                <a href="#" class="">Products</a>
+              </li>
+              <li>
+                <a href="./about.html" class="">About Us</a>
+              </li>
+              <li>
+                <a href="./contact.html" class="">Contact</a>
+              </li>
+            </ul>
+            <div>
+              <button
+                class="bg-sky-300 hover:bg-blue-900 text-white font-bold py-2.5 px-6 rounded"
+              >
+                We're Hiring
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="md:hidden toggle-button">
+          <i id="menu" class="fa-solid fa-bars fa-xl mr-4"></i>
+        </div>
+
+        <section class="hidden md:flex">
+          <div class="flex text-lg items-center text-blue-900">
+            <span><a href="#" class="m-7">Products</a></span>
+            <span><a href="/about.html" class="m-7">About Us</a></span>
+            <span><a href="./contact.html" class="m-7">Contact</a> </span>
+            <div class="hidden md:flex">
+              <button
+                class="bg-sky-300 hover:bg-blue-900 text-white font-bold py-2.5 px-6 rounded"
+              >
+                We're Hiring
+              </button>
+            </div>
+          </div>
+        </section>
+      </nav>
+    </header>
+  </body>
+</html>
